@@ -1,0 +1,13 @@
+{
+  "data": {
+    "token": "",
+    "tokenExpiredAt": 0
+  }
+}
+
+{
+  "data": {
+    "token": null,
+    "tokenExpiredAt": null
+  }
+}

@@ -1,0 +1,15 @@
+spring.application.name=restful_application
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=db_username
+spring.datasource.password=db_password
+spring.datasource.url=public_database_url
+#spring.datasource.url=local_database_url
+spring.datasource.type=com.zaxxer.hikari.HikariDataSource
+spring.datasource.hikari.minimum-idle=10
+spring.datasource.hikari.maximum-pool-size=50
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQL95Dialect
+
+server.ssl.key-store=project_path\selfsigned.jks
+server.ssl.key-store-password=password
